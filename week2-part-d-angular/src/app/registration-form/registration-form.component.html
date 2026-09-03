@@ -1,0 +1,28 @@
+<h2>Register Student</h2>
+<form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="name">Name:</label>
+    <input id="name" type="text" formControlName="name">
+    <div *ngIf="registrationForm.get('name')?.invalid && registrationForm.get('name')?.touched" class="error">
+      Name is required and must be at least 3 characters.
+    </div>
+  </div>
+
+  <div>
+    <label for="email">Email:</label>
+    <input id="email" type="email" formControlName="email">
+    <div *ngIf="registrationForm.get('email')?.invalid && registrationForm.get('email')?.touched" class="error">
+      A valid email is required.
+    </div>
+  </div>
+
+  <div>
+    <label for="department">Department:</label>
+    <input id="department" type="text" formControlName="department">
+    <div *ngIf="registrationForm.get('department')?.invalid && registrationForm.get('department')?.touched" class="error">
+      Department is required.
+    </div>
+  </div>
+
+  <button type="submit" [disabled]="registrationForm.invalid">Register</button>
+</form>
