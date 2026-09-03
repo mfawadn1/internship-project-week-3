@@ -1,5 +1,6 @@
-# 📚 Library Management System — Week 3 Milestone
+# 📚 internship-project-week-3 (Week 3 Milestone)
 
+[![Repository: internship-project-week-3](https://img.shields.io/badge/Repo-internship--project--week--3-blue)](https://github.com/)
 [![Framework: .NET 8](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![Frontend: Angular](https://img.shields.io/badge/Frontend-Angular-DD0031?logo=angular&logoColor=white)](https://angular.dev/)
 [![Database: SQL Server & EF Core](https://img.shields.io/badge/Database-SQL_Server_%26_EF_Core-CC292B?logo=microsoftsqlserver&logoColor=white)](https://learn.microsoft.com/en-us/ef/core/)
@@ -9,7 +10,7 @@
 
 ## 🌟 Overview & Architecture
 
-This repository contains the full source code and database architecture for the **Library Management System** created during the 8-Week AI Software Development Internship. 
+This repository (**`internship-project-week-3`**) contains the full source code and database architecture for the **Library Management System** created during the 8-Week AI Software Development Internship. 
 
 In **Week 3**, the system transitioned from in-memory collections to a persistent **SQL Server database managed with Entity Framework Core (Code-First & Migrations)**, fully integrated with a **live Angular client using HttpClient** and standalone **AI foundation scripts**.
 
