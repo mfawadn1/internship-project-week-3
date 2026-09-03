@@ -1,0 +1,54 @@
+# --- Archives & Zips ---
+*.zip
+*.tar.gz
+*.rar
+
+
+# --- .NET & Visual Studio ---
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+appsettings.Development.json
+*.db
+*.sqlite
+
+# --- Angular & Node.js ---
+node_modules/
+dist/
+.angular/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- Python & Virtual Environments ---
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+
+# --- Environment Variables & Secrets (CRITICAL) ---
+.env
+.env.local
+.env.*.local
+*.secret
+*.pem
+*.key
+
+# --- OS & IDE metadata ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
