@@ -1,7 +1,16 @@
-# --- Archives & Zips ---
+# --- Archives & Previous Week Practice Exercises ---
 *.zip
 *.tar.gz
 *.rar
+dotnet-install.ps1
+Week1_PartA_Exercises/
+Week1_PartB_Exercises/
+Week1_PartC_Exercises/
+Week2_PartA_Exercises/
+Week2_PartB_API/
+week1-part-d-angular/
+week2-part-d-angular/
+
 
 
 # --- .NET & Visual Studio ---
