@@ -1,5 +1,6 @@
 """
 Week 3 - Part G & Project Step 7: AI & Python Foundations
+Author: Asiya
 -----------------------------------------------------------
 This script demonstrates:
 1. Environment-based API key loading with python-dotenv.

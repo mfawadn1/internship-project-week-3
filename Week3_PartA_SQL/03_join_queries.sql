@@ -1,5 +1,6 @@
 -- =============================================
 -- Week 3 - Part A: Relational Database Design
+-- Author: Asiya
 -- Script 3: JOIN Queries, Many-to-Many Queries & FK Integrity
 -- =============================================
 

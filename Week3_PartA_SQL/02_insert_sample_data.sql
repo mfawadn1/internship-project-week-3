@@ -1,6 +1,7 @@
 -- =============================================
 -- Week 3 - Part A: Relational Database Design
--- Script 2: Sample Data Insertion
+-- Author: Asiya
+-- Script 2: Sample Data Insertion (DML)
 -- =============================================
 
 USE LibraryDb_Week3;

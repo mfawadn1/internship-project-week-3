@@ -50,8 +50,8 @@ Contains statements about the entity (user) and additional metadata:
 ```json
 {
   "sub": "101",
-  "name": "Fawad Intern",
-  "email": "fawad@example.com",
+  "name": "Asiya",
+  "email": "asiya@example.com",
   "role": "Admin",
   "iat": 1725400000,
   "exp": 1725486400

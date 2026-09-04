@@ -1,6 +1,7 @@
 -- =============================================
 -- Week 3 - Part A: Relational Database Design
--- Script 1: Database and Table Creation
+-- Author: Asiya
+-- Script 1: Database and Table Creation (DDL)
 -- =============================================
 
 -- 1. Create Database if it does not exist
