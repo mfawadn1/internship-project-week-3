@@ -37,7 +37,15 @@
           <td>{{ book.author }}</td>
           <td><span class="badge">{{ book.category }}</span></td>
           <td>
-            <button class="btn-delete" (click)="deleteBook(book.id)">🗑️ Delete</button>
+            <button *ngIf="authService.isAdmin()" class="btn-delete" (click)="deleteBook(book.id)">
+              🗑️ Delete
+            </button>
+            <span *ngIf="!authService.isAdmin() && authService.isLoggedIn()" class="badge-readonly">
+              👁️ View Only
+            </span>
+            <span *ngIf="!authService.isLoggedIn()" class="badge-readonly">
+              🔒 Login to edit
+            </span>
           </td>
         </tr>
       </tbody>

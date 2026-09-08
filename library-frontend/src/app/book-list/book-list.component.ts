@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BookService } from '../book.service';
 import { Book } from '../book.model';
+import { AuthService } from '../services/auth.service';
 
 @Component({
   selector: 'app-book-list',
@@ -15,7 +16,10 @@ export class BookListComponent implements OnInit {
   isLoading: boolean = false;
   errorMessage: string | null = null;
 
-  constructor(private bookService: BookService) {}
+  constructor(
+    private bookService: BookService,
+    public authService: AuthService
+  ) {}
 
   ngOnInit(): void {
     this.loadBooks();
